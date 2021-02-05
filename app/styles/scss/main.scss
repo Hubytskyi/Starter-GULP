@@ -1,0 +1,15 @@
+@import './config/config';
+
+.container {
+  max-width: vw1920(1600px);
+  display: flex;
+  flex-direction: column;
+}
+
+.row {
+  width: 100%;
+}
+
+.section-padding {
+  padding: vw1920(40px) 0;
+}
